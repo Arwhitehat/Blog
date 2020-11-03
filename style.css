@@ -14,11 +14,11 @@ input {
     background: grey;
 }
 
-.travel_mainDiv{
+.travel_mainDiv {
     border: 1px solid green;
     padding-left: 0px;
     padding-right: 0px;
-    float:none;
+    float: none;
 }
 
 .travel_mainDiv img {
@@ -29,7 +29,46 @@ input {
     width: 230px;
 }
 
-.travel_mainDiv h5,.travel_mainDiv p {
+.travel_mainDiv h5,
+.travel_mainDiv p {
     width: 100%;
     margin-left: 20px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.environment_li {
+    margin-top: 13px;
+}
+
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 25px;
+}
+
+.environment_li p {
+    margin-top: 10px;
+}
+
+.header_entrepreneur {
+    line-height: 2;
 }
